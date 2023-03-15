@@ -87,7 +87,7 @@ class JokeAdapter extends RecyclerView.Adapter<JokeAdapter.ViewHolder> {
         public void bind(Joke joke) {
             jokeSetUpText.setText(joke.getSetup());
             jokePunchLineText.setText(joke.getPunchline());
-            console
+            
         }
     }
 
